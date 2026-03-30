@@ -82,5 +82,5 @@ Your source code is processed in-memory and **never stored**. We use the Claude 
 ---
 
 <p align="center">
-  <sub>Built with conviction in London. Powered by Claude 4.5.</sub>
+  <sub>Built with conviction in India. Powered by Claude 4.5.</sub>
 </p>
