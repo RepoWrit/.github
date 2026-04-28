@@ -34,6 +34,11 @@ graph LR
     B --> D["🗺️ Architecture Map"]
     B --> E["🔎 Ask RepoWrit"]
     B --> F["📄 Documentation PR"]
+    B --> G["🛡️ PR Review"]
+    B --> H["📅 Weekly Briefing Email"]
+    B --> I["📈 Commit Timeline + CSV"]
+    B --> J["🧮 Developer Scores"]
+    B --> K["🧾 SOC 2 / Audit Export"]
 
     style A fill:#1e1e2e,stroke:#6366f1,color:#e4e4e7
     style B fill:#1e1e2e,stroke:#a78bfa,color:#e4e4e7
@@ -41,6 +46,11 @@ graph LR
     style D fill:#1e1e2e,stroke:#818cf8,color:#e4e4e7
     style E fill:#1e1e2e,stroke:#818cf8,color:#e4e4e7
     style F fill:#1e1e2e,stroke:#818cf8,color:#e4e4e7
+    style G fill:#1e1e2e,stroke:#818cf8,color:#e4e4e7
+    style H fill:#1e1e2e,stroke:#818cf8,color:#e4e4e7
+    style I fill:#1e1e2e,stroke:#818cf8,color:#e4e4e7
+    style J fill:#1e1e2e,stroke:#818cf8,color:#e4e4e7
+    style K fill:#1e1e2e,stroke:#818cf8,color:#e4e4e7
 ```
 
 **1. Connect** — Install the GitHub App. Select your repositories. Multi-branch tracking is supported out of the box.
@@ -48,6 +58,47 @@ graph LR
 **2. Push** — Write code like normal. Every commit triggers RepoWrit. The first sync analyzes your last 3 commits instantly so you have a baseline.
 
 **3. Ship** — Get AI-generated documentation PRs, executive summaries (Founder / PM / CTO), architecture visualizations, semantic search ("Ask RepoWrit"), PR reviews, and weekly briefings.
+
+---
+
+### Features at a glance
+
+#### 🤖 AI-Native Documentation
+- **Auto-generated docs** — README, CHANGELOG, and `docs/*.md` updates as PRs on every push
+- **Self-correcting agent** — retries up to 3 times if CI fails on the doc PR
+- **Multi-branch tracking** — track docs and metrics across every branch, not just `main`
+- **Bring Your Own Key (BYOK)** — Anthropic, OpenAI, DeepSeek, or any compatible endpoint (AES-256-GCM encrypted at rest)
+
+#### 📊 Executive Intelligence
+- **Founder View** — knowledge moat %, documentation coverage, exit-readiness score, business impact
+- **PM View** — velocity, energy distribution (features / bugs / refactor / docs / infra), Jira-aware sprint coverage
+- **CTO View** — tech debt trends, architectural drift, security risk flags, dependency health
+- **Weekly Email Briefings** — KPI row, achievements, top contributors, tech debt alerts every Monday
+- **PDF Export** — one-click leadership-ready reports
+
+#### 🗺️ Architecture & Code Intelligence
+- **Architecture Map** — module layers, import relationships, dependency graphs (24 h cache, force-refresh on demand)
+- **Ask RepoWrit** — plain-English semantic search across every commit, summary, and doc (powered by `text-embedding-3-small` + Claude 4.5)
+- **Commit Timeline** — date-range slicing (1–730 days) with author / repo / branch filters and CSV export
+- **Developer Scores** — cubic-weighted impact scoring that resists trivial-commit gaming
+
+#### 🛡️ PR Reviews & Guardrails
+- **Architecture Guardrail** — auto-review on every external PR with severity-graded comments
+- **Risk flags** — flags missing docs, single-author modules, dependency drift, security-relevant changes
+- **Tier-aware processing** — per-tier concurrency (1 → 20), queue priority, and resource limits
+
+#### 🏢 Team & Enterprise
+- **Organization dashboards** — shared org KPIs, code ownership, per-team rollups
+- **Role-based access control** — Owner / Admin / Viewer with Supabase RLS isolation
+- **Jira integration** — epic & ticket sync, PM-view enrichment
+- **Governance & Compliance** — SOC 2-friendly exports, redaction tracking, tamper-evident audit trail (SHA-256 hashed)
+- **Per-seat pricing** — Team ($20/seat/mo) and Enterprise ($49.99/seat/mo)
+
+#### ⚙️ Developer Experience
+- **30-second setup** — install the GitHub App, pick repos, done. No CI, no config files, no CLI.
+- **Four themes** — Dark, Light, Ocean, Rosé — switch from any page
+- **Privacy-first analytics** — PostHog identified-only, cookie-consent gated; Sentry for errors
+- **5-day money-back guarantee** on every paid plan
 
 ---
 
