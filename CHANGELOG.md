@@ -1,0 +1,11 @@
+## [07390e1] - 2026-04-29
+### Improve diagram formatting in README.md for better readability
+Whitespace and formatting changes to Mermaid diagram labels in README.md. Added non-breaking spaces and padding to diagram node labels to improve visual alignment and readability in the rendered diagram output. No functional or content changes to the documentation structure or messaging.
+
+## [180aab3] - 2026-04-29
+### Enhance README.md with additional features and capabilities of RepoWrit
+Enhanced the RepoWrit organization profile README.md with expanded visual diagram and comprehensive feature documentation. Added five new capabilities to the product diagram (PR Review, Weekly Briefing Email, Commit Timeline + CSV, Developer Scores, SOC 2/Audit Export) and introduced a new "Features at a glance" section detailing AI-native documentation, executive intelligence, architecture intelligence, PR reviews, team/enterprise capabilities, and developer experience features.
+
+## [89ef31e] - 2026-04-29
+### Update README.md to enhance clarity on features and pricing
+Updated RepoWrit's organization profile README to clarify product capabilities and enhance the pricing table. Changes include expanding the tagline to highlight executive briefings and architecture maps, adding navigation links to pricing and changelog, updating the feature workflow diagram to include the "Ask RepoWrit" semantic search capability, refining step-by-step instructions with additional details (multi-branch support, initial 3-commit baseline), expanding feature benefits across all user personas, strengthening privacy disclosures, and completely redesigning the pricing tier structure with four plans (Hobbyist, BYOK, Team, Enterprise) featuring new features like PR reviews, weekly briefings, Jira integration, and governance reports.
