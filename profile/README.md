@@ -29,16 +29,16 @@ Every commit triggers an AI analysis. Every analysis produces actionable output.
 
 ```mermaid
 graph LR
-    A["🔀 Git Commits"] -->|webhook| B["⚙️ RepoWrit Engine<br/><i>Claude 4.5</i>"]
-    B --> C["📊 Executive Briefing"]
-    B --> D["🗺️ Architecture Map"]
-    B --> E["🔎 Ask RepoWrit"]
-    B --> F["📄 Documentation PR"]
-    B --> G["🛡️ PR Review"]
-    B --> H["📅 Weekly Briefing Email"]
-    B --> I["📈 Commit Timeline + CSV"]
-    B --> J["🧮 Developer Scores"]
-    B --> K["🧾 SOC 2 / Audit Export"]
+    A["🔀&nbsp;&nbsp;Git Commits&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"] -->|webhook| B["⚙️&nbsp;&nbsp;RepoWrit Engine<br/><i>Claude 4.5</i>"]
+    B --> C["📊&nbsp;&nbsp;Executive Briefing&nbsp;&nbsp;"]
+    B --> D["🗺️&nbsp;&nbsp;Architecture Map&nbsp;&nbsp;&nbsp;&nbsp;"]
+    B --> E["🔎&nbsp;&nbsp;Ask RepoWrit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"]
+    B --> F["📄&nbsp;&nbsp;Documentation PR&nbsp;&nbsp;&nbsp;&nbsp;"]
+    B --> G["🛡️&nbsp;&nbsp;PR Review&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"]
+    B --> H["📅&nbsp;&nbsp;Weekly Briefing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"]
+    B --> I["📈&nbsp;&nbsp;Commit Timeline&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"]
+    B --> J["🧮&nbsp;&nbsp;Developer Scores&nbsp;&nbsp;&nbsp;&nbsp;"]
+    B --> K["🧾&nbsp;&nbsp;Audit Export&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"]
 
     style A fill:#1e1e2e,stroke:#6366f1,color:#e4e4e7
     style B fill:#1e1e2e,stroke:#a78bfa,color:#e4e4e7
