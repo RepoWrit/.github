@@ -1,3 +1,7 @@
+## [07390e1] - 2026-04-29
+### Improve diagram formatting in README.md for better readability
+Whitespace and formatting changes to Mermaid diagram labels in README.md. Added non-breaking spaces and padding to diagram node labels to improve visual alignment and readability in the rendered diagram output. No functional or content changes to the documentation structure or messaging.
+
 ## [180aab3] - 2026-04-29
 ### Enhance README.md with additional features and capabilities of RepoWrit
 Enhanced the RepoWrit organization profile README.md with expanded visual diagram and comprehensive feature documentation. Added five new capabilities to the product diagram (PR Review, Weekly Briefing Email, Commit Timeline + CSV, Developer Scores, SOC 2/Audit Export) and introduced a new "Features at a glance" section detailing AI-native documentation, executive intelligence, architecture intelligence, PR reviews, team/enterprise capabilities, and developer experience features.
